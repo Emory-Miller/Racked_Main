@@ -1,0 +1,12 @@
+{
+  "rackedApp": {
+    "StarRating": {
+      "null": "",
+      "ONE": "One",
+      "TWO": "Two",
+      "THREE": "Three",
+      "FOUR": "Four",
+      "FIVE": "Five"
+    }
+  }
+}

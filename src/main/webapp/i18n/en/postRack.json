@@ -1,0 +1,27 @@
+{
+  "rackedApp": {
+    "postRack": {
+      "home": {
+        "title": "Post Racks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Post Rack",
+        "createOrEditLabel": "Create or edit a Post Rack",
+        "notFound": "No Post Racks found"
+      },
+      "created": "A new Post Rack is created with identifier {{ param }}",
+      "updated": "A Post Rack is updated with identifier {{ param }}",
+      "deleted": "A Post Rack is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Post Rack {{ id }}?"
+      },
+      "detail": {
+        "title": "Post Rack"
+      },
+      "id": "ID",
+      "longitude": "Longitude",
+      "latitude": "Latitude",
+      "image": "Image",
+      "review": "Review"
+    }
+  }
+}

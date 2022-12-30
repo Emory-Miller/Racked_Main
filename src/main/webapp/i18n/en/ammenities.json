@@ -1,0 +1,25 @@
+{
+  "rackedApp": {
+    "ammenities": {
+      "home": {
+        "title": "Ammenities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Ammenities",
+        "createOrEditLabel": "Create or edit a Ammenities",
+        "notFound": "No Ammenities found"
+      },
+      "created": "A new Ammenities is created with identifier {{ param }}",
+      "updated": "A Ammenities is updated with identifier {{ param }}",
+      "deleted": "A Ammenities is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ammenities {{ id }}?"
+      },
+      "detail": {
+        "title": "Ammenities"
+      },
+      "id": "ID",
+      "ammenity": "Ammenity",
+      "review": "Review"
+    }
+  }
+}

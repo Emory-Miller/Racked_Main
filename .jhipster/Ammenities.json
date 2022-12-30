@@ -1,0 +1,28 @@
+{
+  "applications": ["RACKED"],
+  "changelogDate": "20221229181453",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "ammenities",
+  "fields": [
+    {
+      "fieldName": "ammenity",
+      "fieldType": "AmmenitiesEnum",
+      "fieldValues": "BATHROOM (Bathroom),FOUNTAIN (Fountain),PLAYGROUND (Playground),BIKETOOLS (BikeTools),RESTAURANT (Restaurant)"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Ammenities",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "review",
+      "otherEntityRelationshipName": "ammenities",
+      "relationshipName": "review",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

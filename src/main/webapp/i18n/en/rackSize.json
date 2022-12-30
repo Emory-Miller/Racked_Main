@@ -1,0 +1,11 @@
+{
+  "rackedApp": {
+    "RackSize": {
+      "null": "",
+      "SMALL": "Small",
+      "MEDIUM": "Medium",
+      "LARGE": "Large",
+      "XL": "Extra-Large"
+    }
+  }
+}

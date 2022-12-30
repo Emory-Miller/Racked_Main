@@ -1,0 +1,12 @@
+{
+  "rackedApp": {
+    "AmmenitiesEnum": {
+      "null": "",
+      "BATHROOM": "Bathroom",
+      "FOUNTAIN": "Fountain",
+      "PLAYGROUND": "Playground",
+      "BIKETOOLS": "BikeTools",
+      "RESTAURANT": "Restaurant"
+    }
+  }
+}

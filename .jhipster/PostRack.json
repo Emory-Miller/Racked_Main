@@ -1,0 +1,36 @@
+{
+  "applications": ["RACKED"],
+  "changelogDate": "20221229181451",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "post_rack",
+  "fields": [
+    {
+      "fieldName": "longitude",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "latitude",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PostRack",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "review",
+      "otherEntityRelationshipName": "postRack",
+      "relationshipName": "review",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceClass"
+}

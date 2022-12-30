@@ -1,0 +1,49 @@
+{
+  "applications": ["RACKED"],
+  "changelogDate": "20221229181452",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "review",
+  "fields": [
+    {
+      "fieldName": "starRating",
+      "fieldType": "StarRating",
+      "fieldValues": "ONE (One),TWO (Two),THREE (Three),FOUR (Four),FIVE (Five)"
+    },
+    {
+      "fieldName": "rackSize",
+      "fieldType": "RackSize",
+      "fieldValues": "SMALL (Small),MEDIUM (Medium),LARGE (Large),XL (Extra-Large)"
+    },
+    {
+      "fieldName": "comments",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Review",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "postRack",
+      "otherEntityRelationshipName": "review",
+      "relationshipName": "postRack",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "ammenities",
+      "otherEntityRelationshipName": "review",
+      "relationshipName": "ammenities",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceClass"
+}
